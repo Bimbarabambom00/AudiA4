@@ -23,12 +23,6 @@ const imageSRC = {
     'RS 4 Avant':'https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wdrxa/2020.png?imwidth=550'
 
 }
-var audiImage = document.createElement("img");
-audiImage.setAttribute("src", "https://mediaservice.audi.com/media/live/50900/fly1400x601n8/8wc/2020.png?imwidth=550");
-audiImage.setAttribute("height", "auto");
-audiImage.setAttribute("width", "380");
-audiImage.setAttribute("margin", "auto");
-
 let zdanie= 'zdanie';
 function show(type) {
     switch(type) {
